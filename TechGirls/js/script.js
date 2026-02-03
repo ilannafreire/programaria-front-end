@@ -3,37 +3,37 @@ const mulheres = [
         nome: "Ada Lovelace",
         area: "Programação",
         descricao: "Considerada a primeira programadora de computador do mundo.",
-        imagem: "../images/ada.jpg"
+        imagem: "./images/ada.jpg"
     },
     {
         nome: "Grace Hopper",
         area: "Desenvolvimento de Linguagens",
         descricao: "Criadora do primeiro compilador e inventora do COBOL.",
-        imagem: "../images/"
+        imagem: "./images/grace-hopper.jpg"
     },
     {
         nome: "Hedy Lamarr",
         area: "Engenharia Eletrônica",
         descricao: "Inventora da tecnologia spread spectrum, base do Wi-Fi e Bluetooth.",
-        imagem: "../images/hedy-lamarr.jpg"
+        imagem: "./images/hedy-lamarr.jpg"
     },
     {
         nome: "Barbara Liskov",
         area: "Ciência da Computação",
         descricao: "Ganhadora do Prêmio Turing por suas contribuições em programação.",
-        imagem: "../images/barbara-liskov.jpg"
+        imagem: "./images/barbara-liskov.jpg"
     },
     {
         nome: "Sheryl Sandberg",
         area: "Tecnologia e Negócios",
         descricao: "COO do Facebook, líder em diversidade na tecnologia.",
-        imagem: "../images/sheryl-sandberg.jpg"
+        imagem: "./images/sheryl-sandberg.jpg"
     },
     {
         nome: "Marissa Mayer",
         area: "Tecnologia e Inovação",
         descricao: "Co-fundadora do Google e primeira mulher a trabalhar como engenheira na empresa.",
-        imagem: "../images/marissa-mayer.jpg"
+        imagem: "./images/marissa-mayer.jpg"
     }
 ];
 
