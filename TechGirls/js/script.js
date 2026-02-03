@@ -15,25 +15,25 @@ const mulheres = [
         nome: "Hedy Lamarr",
         area: "Engenharia Eletrônica",
         descricao: "Inventora da tecnologia spread spectrum, base do Wi-Fi e Bluetooth.",
-        imagem: "../images/"
+        imagem: "../images/hedy-lamarr.jpg"
     },
     {
         nome: "Barbara Liskov",
         area: "Ciência da Computação",
         descricao: "Ganhadora do Prêmio Turing por suas contribuições em programação.",
-        imagem: "../images/"
+        imagem: "../images/barbara-liskov.jpg"
     },
     {
         nome: "Sheryl Sandberg",
         area: "Tecnologia e Negócios",
         descricao: "COO do Facebook, líder em diversidade na tecnologia.",
-        imagem: "../images/"
+        imagem: "../images/sheryl-sandberg.jpg"
     },
     {
-        nome: "Satya Nadella",
-        area: "Liderança Tecnológica",
-        descricao: "CEO da Microsoft, promotor de inclusão na indústria tech.",
-        imagem: "../images/"
+        nome: "Marissa Mayer",
+        area: "Tecnologia e Inovação",
+        descricao: "Co-fundadora do Google e primeira mulher a trabalhar como engenheira na empresa.",
+        imagem: "../images/marissa-mayer.jpg"
     }
 ];
 
@@ -65,6 +65,8 @@ function scroll_to(section) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    loadMulheres();
+    
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
